@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: primenumber-service
-          image: cbagade/primenumber-app:v15
+          image: cbagade/primenumber-app:v14
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9080
@@ -48,7 +48,7 @@ spec:
     spec:
       containers:
         - name: primenumber-service
-          image: cbagade/primenumber-app:v15
+          image: cbagade/primenumber-app:v14
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9080
